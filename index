@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- #region METADADOS (informações para o navegador) -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta charset="UTF-8"> <!-- Define qual método de caractere vai ser usado-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsividade -->
+  <meta name="description" content="Pagina para fins educativos"> <!-- Descrição do site -->
+  <link rel="shortcut icon" href="IMG/images.jpg" type="image/x-icon"> <!--ICONE DA ABA-->
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="Author" content="Matheus Ursino dos Santos">
+  <meta charset="UTF-8">
+  <meta name="robots" content="index, all">
+  <!-- #endregion -->
+ 
+  <!-- Linkando o CSS -->
+  <link rel="stylesheet" href="css/style.css"> 
+
+    <title>Login Animado</title>
+
+    <script src="https://kit.fontawesome.com/82e317bcf7.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    
+<div class="container">
+<form action="#">
+    <div class="title">Login</div>
+    <div class="input-box">
+        <input type="email" placeholder="Insira Seu Email" name="Email" id="email" autocomplete="on" required>
+        <div class="underline"></div>
+    </div>
+    
+    <div class="input-box">
+        <input type="password" placeholder="Insira Sua Senha" name="password" id="password" required>
+        <div class="underline"></div>
+    </div>
+
+    <div class="input-box button">
+        <input type="submit" value="Entrar">
+    </div>
+</form>
+
+<div class="option">Ou conecte-se com suas redes sociais</div>
+<div class="twitter">
+    <a href="#"><i class="fab fa-twitter"></i>  Entrar com o Twitter</a>
+</div>
+<div class="facebook">
+    <a href="#"><i class="fab fa-facebook-f"></i> Entrar com o Facebook</a>
+</div>
+</div>
+
+</body>
+
+
+</html>
